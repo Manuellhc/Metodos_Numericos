@@ -7,9 +7,10 @@ public class Gauss {
 
   
     public static void main(String[] args) {
-        int n,m;
+        int n;
        
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el tamaño de la matriz");
         n=scanner.nextInt();
        
         int [][] matriz=new int [n][n];
@@ -29,6 +30,12 @@ public class Gauss {
                 
             }
         }
+
+      
+        
+    }
+    public double GaussPivot(double [][] matriz){
+        
         
     }
     
