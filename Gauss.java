@@ -21,8 +21,8 @@ public class Gauss {
         }
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if(j>=n){
-                    System.out.println(matriz[i][j]+"/n");
+                if(j==n-1){
+                    System.out.println(matriz[i][j]+"\n");
                 }else{
                     System.out.print(matriz[i][j]+" ");
                 }
